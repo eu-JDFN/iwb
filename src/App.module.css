@@ -1,0 +1,52 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.cabecalho {
+  text-align: center;
+  padding: 16px 0 8px;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  color: var(--cor-destaque-escuro);
+  font-size: 1.8rem;
+}
+
+.cabecalho p {
+  margin: 4px 0 0;
+  opacity: 0.75;
+}
+
+.abas {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.aba,
+.abaAtiva {
+  flex: 1;
+  padding: 10px 8px;
+  border: 2px solid var(--cor-destaque);
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.aba {
+  background: transparent;
+  color: var(--cor-destaque);
+}
+
+.abaAtiva {
+  background: var(--cor-destaque);
+  color: #fff;
+}
+
+.principal {
+  padding-bottom: 32px;
+}

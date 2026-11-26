@@ -1,0 +1,41 @@
+.cartoes {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.figura {
+  margin: 16px 0;
+}
+
+.figura img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.figura figcaption {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.botao {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--cor-destaque);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fontes {
+  padding-left: 18px;
+  font-size: 0.9rem;
+}
+
+.fontes li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,43 @@
+.barras {
+  list-style: none;
+  padding: 0;
+}
+
+.barras li {
+  margin-bottom: 12px;
+}
+
+.trilho {
+  background: #fed7aa;
+  border-radius: 6px;
+  height: 14px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.preenchido {
+  background: var(--cor-destaque);
+  height: 100%;
+}
+
+.media {
+  font-size: 1.3rem;
+}
+
+.comentarios {
+  padding-left: 18px;
+}
+
+.comentarios li {
+  background: #fff;
+  list-style: none;
+  margin: 0 0 8px -18px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.erro {
+  color: #b91c1c;
+  font-weight: 600;
+}
