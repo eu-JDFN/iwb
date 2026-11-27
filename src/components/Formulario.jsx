@@ -42,7 +42,7 @@ export default function Formulario({ aoEnviar, aoVerResultados }) {
   if (estado === 'enviado') {
     return (
       <section className={styles.sucesso}>
-        <h2>✅ Resposta enviada!</h2>
+        <h2>Resposta enviada!</h2>
         <p>Obrigado por participar.</p>
         <button type="button" className={styles.botao} onClick={aoVerResultados}>
           Ver resultados
@@ -120,7 +120,7 @@ export default function Formulario({ aoEnviar, aoVerResultados }) {
 
       {estado === 'erro' ? (
         <p className={styles.erro} role="alert">
-          ❌ Não foi possível enviar: {mensagemErro} Tente de novo.
+          Não foi possível enviar: {mensagemErro} Tente de novo.
         </p>
       ) : null}
     </form>
