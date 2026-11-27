@@ -1,7 +1,7 @@
 // Dados do tema "Inteligência artificial" — perguntas conforme o enunciado do projeto.
 export const TEMA = 'inteligencia_artificial';
 
-export const titulo = '🤖 IA nos estudos';
+export const titulo = 'IA nos estudos';
 export const subtitulo = 'Inteligência artificial · ARQIWEB2 · IFSP Araraquara';
 
 export const perguntas = {
